@@ -1,0 +1,163 @@
+.grid {
+    display: grid;
+    flex-grow: 4;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(6, 40px);
+    width: 50%;
+    height: 40%;
+    margin: 10% ;
+}
+
+.grid_item {
+    border: 1px solid grey;
+    border-style: dashed;
+    font-size: 2em;
+    font-family: serif;
+    font-weight: bold;
+    align-content: flex-end;
+    text-align: right;
+   
+}
+
+.font1 {
+    font-size: 1em;
+}
+
+.font2 {
+    font-size: 1.5em;
+}
+
+#one {
+    grid-column: 6/8;
+    grid-row: 1/3;
+    background-color: rgb(252, 242, 157)
+}
+
+#ten3 {
+
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: rgb(142, 238, 238);
+
+}
+
+#nine {
+    grid-column: 3/5;
+    grid-row: 1/2;
+
+}
+
+#ten8 {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    background-color: rgb(96, 190, 228);
+}
+
+#twenty {
+    grid-column: 8/10;
+    grid-row: 1/2;
+}
+
+#ten5 {
+    grid-column: 10/11;
+    grid-row: 1/2;
+    background-color: rgb(236, 194, 233);
+}
+
+#twenty2 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-color: rgb(252, 242, 157);
+
+}
+
+#five {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#six {
+    grid-column: 4/6;
+    grid-row: 2/4;
+    background-color: rgb(236, 194, 233);
+}
+
+#eight {
+    grid-column: 6/8;
+    grid-row: 3/4;
+}
+
+#ten1 {
+    grid-column: 8/9;
+    grid-row: 2/4;
+    background-color: rgb(96, 190, 228);
+}
+
+#three {
+    grid-column: 9/11;
+    grid-row: 2/4;
+}
+
+#seven {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#ten6 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
+#two {
+    grid-column: 4/6;
+    grid-row: 4/6;
+}
+
+#ten9 {
+    grid-column: 6/7;
+    grid-row: 4/5;
+    background-color: rgb(236, 194, 233);
+}
+
+#ten4 {
+    grid-column: 7/9;
+    grid-row: 4/5;
+}
+
+#twenty1 {
+    grid-column: 9/11;
+    grid-row: 4/6;
+    background-color: rgb(252, 242, 157);
+}
+
+#twenty4 {
+    grid-column: 1/3;
+    grid-row: 5/7;
+    background-color: rgb(96, 190, 228);
+}
+
+#ten7 {
+    grid-column: 3/4;
+    grid-row: 5/7;
+}
+
+#ten2 {
+    grid-column: 4/6;
+    grid-row: 6/7;
+}
+
+#four {
+    grid-column: 6/8;
+    grid-row: 5/7;
+    background-color: rgb(142, 238, 238);
+}
+
+#twenty3 {
+    grid-column: 8/9;
+    grid-row: 5/7;
+}
+
+#ten {
+    grid-column: 9/11;
+    grid-row: 6/7;
+}

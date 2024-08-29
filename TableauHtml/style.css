@@ -1,0 +1,72 @@
+p.capitalize {
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    width: auto;
+    text-align: center;
+  
+
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid  #888888;
+}
+
+thead> :first-child> :nth-child(2) {
+    font-size: 2em;
+    color: blue;
+    background-color: white;
+
+}
+
+/* selection éléments pairs 2n ou even */
+tbody>:nth-child(2n) {
+    background-color: #FCB941;
+}
+
+/* selection éléments impairs 2n+1 ou odd*/
+tbody>:nth-child(2n+1) {
+    background-color: #F1654C;
+}
+
+/* selection éléments impairs */
+tbody>:nth-child(2n+1) th:first-child {
+    background-color: #7E3661;
+    color: #fff;
+}
+
+tbody>:nth-child(2n) th:first-child {
+    background-color: #888888;
+    color: #fff;
+}
+
+tr:nth-child(2n+1) td:last-child {
+    background-color: #8870FF;
+    color: #fff;
+   
+   
+}
+
+thead>:first-child>:last-child[rowspan="2"]{
+   border-right:transparent;
+   border-top: transparent;
+
+}
+
+
+table {
+    width: 700px;
+    
+}
+
+#font {
+    font-weight: normal;
+}

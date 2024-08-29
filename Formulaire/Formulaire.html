@@ -5,62 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="STYLESHEET" type="text/css" href="Style.css" />
-   
+    <link rel="STYLESHEET" type="text/css" href="style.css" />
+
 </head>
 
 <body>
-    
-    <img src="Logo-Afpa.png" alt="" width="120" height="80">
-    <form>
-        <fieldset>
 
-            <header>
-                <section id="gauche">
-                   Nom <br>
-                    <input type="text" placeholder="Nom" required="required" pattern="^(\w\w+)\s(\w+)$"><br>
-                    
-                    Prénom <br>
-                    <input type="text" placeholder="Prénom" ><br>
-                    
-                    Courriel <br>
-                    <input type="email" placeholder="Courriel"><br>
-                    
-                    Téléphone <br>
-                    <input type="tel" placeholder="Numero de téléphone" pattern="^[0-9]{10}$"><br><br>
-                    
-                    <select>
-                        <option>Vous êtes</option>
-                    <option>Homme</option>
-                    <option>Femme</option>
-                    <option>Autre</option>
-                </select><br><br>
-                
-                <textarea placeholder="Commentaires"></textarea><br><br>
-            </section>
-        </header>
-        
-        <section id="droite">
-            Quelle est la meilleure manière de vous contacter?<br><br>
-            <input type="radio">Télephone<br>
-            <input type="radio">Courriel<br><br>
-            
-            Jours de la semaine où vous êtes disponible:<br><br>
-            <input type="checkbox">Lundi<br>
-            <input type="checkbox">Mardi<br>
-            <input type="checkbox">Mercredi<br>
-            <input type="checkbox">Jeudi<br>
-            <input type="checkbox">Vendredi<br><br>
-            
-            Heure appropriée pour un rendez-vous:<br><br>
-            <input type="checkbox">Matin<br>
-            <input type="checkbox">Après-midi<br><br>
-            
+    <img src="Logo-Afpa.png" alt="" width="120" height="80">
+
+
+    <fieldset>
+        <main>
+
+            <form>
+
+                <header>
+                    <section id="gauche">
+
+                        <input class="align-gauche" type="text" placeholder="Nom - Prénom" required="required"
+                            pattern="^(\w\w+)\s(\w+)$"><br><br>
+
+                        <input class="align-gauche" type="email" placeholder="Courriel"><br><br>
+
+                        <input class="align-gauche" type="tel" placeholder="Numero de téléphone"
+                            pattern="^[0-9]{10}$"><br><br>
+
+                        <select class="align-gauche">
+                            <option>Vous êtes</option>
+                            <option>Homme</option>
+                            <option>Femme</option>
+                            <option>Autre</option>
+                        </select><br><br>
+
+                        <textarea placeholder="Commentaires"></textarea><br><br>
+                    </section>
+                </header>
+
+                <section id="droite">
+                    <label>Quelle est la meilleure manière de vous contacter? </label> <br><br>
+                    <input type="radio">Télephone<br>
+                    <input type="radio">Courriel<br><br>
+
+                    <label>Jours de la semaine où vous êtes disponible:</label> <br><br>
+                    <input type="checkbox">Lundi<br>
+                    <input type="checkbox">Mardi<br>
+                    <input type="checkbox">Mercredi<br>
+                    <input type="checkbox">Jeudi<br>
+                    <input type="checkbox">Vendredi<br><br>
+
+                    <label>Heure appropriée pour un rendez-vous:</label><br><br>
+                    <input type="checkbox">Matin<br>
+                    <input type="checkbox">Après-midi<br><br>
+
+                </section>
+
+            </form>
+        </main>
+        <section id="fin">
+            <hr>
+            <button id="bouton" type="submit">Envoyer</button>
         </section>
-        <hr>
-        <button type="submit" >Envoyer</button>
+
     </fieldset>
-    </form>
+
 
 </body>
 
