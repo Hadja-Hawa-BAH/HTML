@@ -11,15 +11,19 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="controls">
+            <div class="controls" id="column">
 
-                <button class="player" type="button" id="btnPrevious">&#8592;</button>
-                <button class="player" type="button" id="btnPlay-pause">&#9658;</button>
-                <button class="player" type="button" id="btnNext">&#8594;</button>
-                <button class="volume" type="button" id="decreaseVolume">&#128265;</button>
-                <input class="volume" type="range" id="progression" min="0" max="100" value="50">
-                <button class="volume" type="button" id="increaseVolume">&#128266;</button>
-                <audio id="mediaplayer" controls> </audio>
+                <div class="justify" id="margin">
+                    <button class="player" type="button" id="btnPrevious">&#8592;</button>
+                    <button class="player" type="button" id="btnPlay-pause">&#9658;</button>
+                    <button class="player" type="button" id="btnNext">&#8594;</button>
+                </div>
+                <div  class="justify" id="range">
+                    <button class="volume" type="button" id="decreaseVolume">&#128265;</button>
+                    <input   class="volume" type="range" id="progression" min="0" max="100" value="50">
+                    <button class="volume" type="button" id="increaseVolume">&#128266;</button>
+                  
+                </div>
 
             </div>
 
@@ -102,6 +106,9 @@
  -->
             </div>
         </main>
+        <footer>
+            <audio hidden id="mediaplayer" controls> </audio>
+        </footer>
     </div>
     <script type="text/javascript" src="script.js"></script>
 </body>

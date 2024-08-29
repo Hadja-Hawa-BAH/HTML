@@ -2,8 +2,8 @@
 // Tableau des chansons
 let tableMusic = [
     {
+        title: "Blue Skies",
         author: "Silent Patner",
-        title: "Silent Author",
         file: "Blue_Skies.mp3",
         image: "1.jpg"
     },
@@ -27,13 +27,13 @@ let tableMusic = [
         image: "4.jpg"
     },
     {
-        author: "Hold On a Minute",
-        title: "Silent Partner",
-        file: "Hold_On_a_Minute.mp3",
+        author: "City of Prague Philharmonic",
+        title: "John Dunbar Theme",
+        file: "JohnDunbarTheme.mp3",
         image: "5.jpg"
     },
     {
-        author: "Silent Partner",
+        author: "Silent Patner",
         title: "Stay with You",
         file: "Stay_With_You.mp3",
         image: "6.jpg"
@@ -47,9 +47,7 @@ let tableMusic = [
 
 ]
 
-
 // Sélection des éléments HTML en faisant une correspondance avec les images
-
 let artistName = document.getElementById("artist-name");
 let songTitle = document.getElementById("song-title");
 let songGrid = document.getElementById("song-grid");
@@ -59,7 +57,6 @@ let currentTrackIndex = 0;
 mediaplayer.src = tableMusic[currentTrackIndex].file
 
 // Fonction pour charger/cibler et jouer une chanson
-
 function loadTrack(i) {
     let track = tableMusic[i];
     mediaplayer.src = track.file
@@ -79,16 +76,14 @@ function trackSongCard(songs) {
         card.className = "card";
         card.innerHTML = `
             <img src="${track.image}" alt="${track.title}">
+            <figcaption>${track.author}</figcaption>
             <figcaption class="title">${track.title}</figcaption>
-            <figcaption>${track.author}</figcaption>`;
+            `;
         card.addEventListener("click", () => loadTrack(i));
         songGrid.appendChild(card);
     });
-
 }
 trackSongCard(tableMusic);
-
-
 
 // Bouton play method1
 // const playButton = document.querySelector("#btnPlay-pause");
@@ -103,7 +98,6 @@ trackSongCard(tableMusic);
 // 	document.getElementById("mediaplayer").play();
 
 // }
-
 
 // Fontion playPause
 function playPause() {
