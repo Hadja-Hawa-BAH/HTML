@@ -216,17 +216,4 @@ function update(player) {
     progress.textContent = percent + '%';
 }
 
-// let songs = document.getElementsByClassName("card");
-// console.log("test");
-
-// for (i = 0; i < songs.length; i++){
-//     let artist = songs[i].getElementsByTagName("figcaption")[1];
-//     let title = songs[i].getElementsByTagName("figcaption")[0];
-
-//     if (artist.innerHTML.toLowerCase(). includes(input) || title.innerHTML.toLowerCase().includes(input)){
-//         songs[i].style.display = "block";
-
-//     } else {
-//         songs[i].style.display = "none";
-//     }
 

@@ -12,27 +12,31 @@
     <div class="container">
         <div class="header">
             <div class="controls" id="column">
-
+                <!-- Boutons de lecture de l'audio -->
                 <div class="justify" id="margin">
                     <button class="player" type="button" id="btnPrevious">&#8592;</button>
                     <button class="player" type="button" id="btnPlay-pause">&#9658;</button>
                     <button class="player" type="button" id="btnNext">&#8594;</button>
                 </div>
-                <div  class="justify" id="range">
+
+                <!-- Boutons volume -->
+                <div class="justify" id="range">
                     <button class="volume" type="button" id="decreaseVolume">&#128265;</button>
-                    <input   class="volume" type="range" id="progression" min="0" max="100" value="50">
+                    <input class="volume" type="range" id="progression" min="0" max="100" value="50">
                     <button class="volume" type="button" id="increaseVolume">&#128266;</button>
-                  
+
                 </div>
 
             </div>
 
+            <!-- Nom et titre de la chanson en cours-->
             <div class="name-song">
                 <p class="title" id="artist-name">Nom artiste</p>
                 <figcaption class="title" id="song-title"> Titre de la chanson </figcaption>
                 <input class="title" id="progressBar" type="range" min="0" max="100" value="50">
             </div>
 
+            <!-- Barre de recherche -->
             <div class="search">
                 <img id="search-img" alt="player" src="search.jpg">
                 <input id="searchBar" type="search" placeholder="recherche">
@@ -40,6 +44,7 @@
         </div>
 
         <main class="content">
+            <!-- Table de fonctionnalités -->
             <nav class="sidebar">
                 <table>
                     <tr>
@@ -54,6 +59,8 @@
                 </table>
             </nav>
             <div class="grid" id="song-grid">
+
+                <!-- <!-- Cartes d'images correspondant aux chansons - -->
 
 
                 <!-- <figure class="card">

@@ -31,8 +31,6 @@ body {
 .controls {
     display: flex;
     align-items: flex-start;
-
-
 }
 
 #column {
@@ -181,6 +179,7 @@ main {
 }
 
 
+/* Le Responsive sera fait sur une autre page */
 
  /* Large devices (laptops/desktops, 992px and up) */
  /* @media only screen and (min-width: 992px) { 
@@ -418,4 +417,4 @@ main {
         display: none;
     } */
 
-} 
+/* }  */

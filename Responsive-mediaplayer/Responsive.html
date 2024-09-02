@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <p>Extra small</p>
+        </header>
+        <div class="container">
+
+            <div class="controls" id="column">
+
+                <!-- Boutons de lecture de l'audio -->
+                <div class="justify" id="margin">
+                    <button class="player" type="button" id="btnPrevious">&#8592;</button>
+                    <button class="player" type="button" id="btnPlay-pause">&#9658;</button>
+                    <button class="player" type="button" id="btnNext">&#8594;</button>
+                </div>
+
+                <!-- Boutons volume -->
+                <div class="justify" id="range">
+                    <button class="volume" type="button" id="decreaseVolume">&#128265;</button>
+                    <input class="volume" type="range" id="progression" min="0" max="100" value="50">
+                    <button class="volume" type="button" id="increaseVolume">&#128266;</button>
+
+                </div>
+
+            </div>
+
+            <!-- Nom et titre de la chanson en cours-->
+            <div class="name-song small">
+                <h4 class="title" id="artist-name">Nom artiste</h4>
+                <p class="title" id="song-title"> Titre de la chanson </p>
+                <input class="title" id="progressBar" type="range" min="0" max="100" value="50">
+            </div>
+
+            <!-- Barre de recherche -->
+            <div class="search small">
+                <i id="search-img">&#128269;</i>
+                <input id="searchBar" type="search" placeholder="recherche">
+            </div>
+
+            <main class="content">
+                <nav class="sidebar">
+
+                    <!-- Table de fonctionnalités -->
+                    <table>
+                        <tr>
+                            <td> Music</td>
+                        </tr>
+                        <tr>
+                            <td>Videos</td>
+                        </tr>
+                        <tr>
+                            <td>Podcasts</td>
+                        </tr>
+                    </table>
+                </nav>
+                <div class="grid" id="song-grid">
+                    <div class="content">
+                        <div class="grid">
+
+                            <!-- Cartes d'images correspondant aux chansons -->
+
+                            <figure class="card">
+                                <img src="1.jpg" alt="">
+                                <figcaption>Titre</figcaption>
+                                <figcaption>Nom artiste</figcaption>
+                            </figure>
+
+                            <figure class="card">
+                                <img src="2.jpg" alt="">
+                                <figcaption>Titre</figcaption>
+                                <figcaption>Nom artiste</figcaption>
+                            </figure>
+
+                            <figure class="card">
+                                <img src="3.jpg" alt="">
+                                <figcaption>Titre</figcaption>
+                                <figcaption>Nom artiste</figcaption>
+                            </figure>
+
+                            <figure class="card">
+                                <img src="4.jpg" alt="">
+                                <figcaption>Titre</figcaption>
+                                <figcaption>Nom artiste</figcaption>
+                            </figure>
+
+                            <figure class="card">
+                                <img src="5.jpg" alt="">
+                                <figcaption>Titre</figcaption>
+                                <figcaption>Nom artiste</figcaption>
+                            </figure>
+
+                            <figure class="card">
+                                <img src="6.jpg" alt="">
+                                <figcaption>Titre</figcaption>
+                                <figcaption>Nom artiste</figcaption>
+                            </figure>
+
+                        </div>
+                    </div>
+                </div>
+    </body>
+
+</html>

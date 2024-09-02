@@ -1,0 +1,302 @@
+/* Extra small resolution */
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        text-align: left;
+        margin: 10px;
+    }
+
+    .controls {
+        display: flex;
+        align-items: center;
+    }
+
+    #column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .justify {
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    #margin button {
+        margin-right: 100px;
+        width: 60px;
+        /* margin-bottom: 30px; */
+    }
+
+    #range button {
+        margin-right: 0px;
+
+    }
+
+    #progression {
+        width: 60%;
+    }
+
+    #progressBar {
+        width: 75%;
+    }
+
+    .search {
+        display: flex;
+    }
+
+    .sidebar {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding: 10px;
+        justify-content: stretch;
+    }
+
+    .sidebar td {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sidebar table {
+        border-collapse: collapse;
+        width: 89%;
+    }
+
+    .sidebar table tr td {
+        border: 1px solid #ddd;
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: left;
+    }
+
+   
+    
+    #margin {
+        margin-bottom: 10px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        justify-content: space-between;
+        /* margin: 1px 5px;   */
+        /* padding: 15px 15px; */
+        width: 100%;
+    }
+
+    .content {
+        width: 350px;
+    }
+
+
+    .card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .card img {
+        max-width: 90%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+    }
+
+
+    header p {
+        background-color: #e28d8d;
+        height: 30px;
+    }
+
+    .search {
+        display: flex;
+        justify-content: baseline;
+
+    }
+
+    #searchBar {
+        width: 380px;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+
+    }
+
+    #song-title {
+        font-size: 13px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    header p {
+        background-color: #a1e4f0;
+        height: 30px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        text-align: left;
+        margin: 10px;
+    }
+
+    .controls {
+        display: flex;
+        align-items: center;
+    }
+
+    #column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .justify {
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    #margin button {
+        margin-right: 100px;
+        width: 60px;
+        /* margin-bottom: 30px; */
+    }
+
+    #range button {
+        margin-right: 0px;
+
+    }
+
+    #progression {
+        width: 60%;
+    }
+
+    .small {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #progressBar {
+        width: 75%;
+    }
+
+    .search {
+        display: flex;
+    }
+
+    .sidebar {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding: 10px;
+        justify-content: stretch;
+    }
+
+    .sidebar td {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sidebar table {
+        border-collapse: collapse;
+        width: 89%;
+    }
+
+    .sidebar table tr td {
+        border: 1px solid #ddd;
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: left;
+    }
+
+   
+    
+    #margin {
+        margin-bottom: 10px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        justify-content: space-between;
+        /* margin: 1px 5px;   */
+        /* padding: 15px 15px; */
+        width: 100%;
+    }
+
+    .content {
+        width: 350px;
+    }
+
+
+    .card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .card img {
+        max-width: 90%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+    }
+
+
+
+    /* .search {
+        display: flex;
+        justify-content: baseline;
+
+    }
+
+    #searchBar {
+        width: 380px;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+
+    } */
+
+    #song-title {
+        font-size: 13px;
+    }
+
+
+ }
